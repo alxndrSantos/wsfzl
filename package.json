@@ -1,0 +1,23 @@
+{
+  "name": "wsfzl",
+  "version": "1.0.0",
+  "description": "Web service da Fatec ZL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Fatec",
+    "zl",
+    "web",
+    "service"
+  ],
+  "author": "Alexandre de Sousa Santos",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "consign": "^0.1.6",
+    "express": "^4.16.3",
+    "mongoose": "^4.3.1"
+  }
+}
