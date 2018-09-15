@@ -1,5 +1,3 @@
-var mongoose = require('mongoose');
-var model = mongoose.model('Noticia');
 module.exports = function(app) {
   var noticiaDao = app.persistencia.noticiaDao
 
@@ -32,9 +30,4 @@ module.exports = function(app) {
       noticiaDao.atualiza(req,res);
 
     });
-
-
-
-
-
 }
