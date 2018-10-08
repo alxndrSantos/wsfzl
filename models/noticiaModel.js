@@ -10,10 +10,6 @@ var Schema = new mongoose.Schema({
 		type: String,
 		required: true
 	},
-  resumo: {
-		type: String,
-		required: true
-	},
   conteudo: {
 		type: String,
 		required: true

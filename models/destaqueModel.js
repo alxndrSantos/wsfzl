@@ -6,13 +6,15 @@ var Schema = new mongoose.Schema({
 		type: String,
 		required: true
 	},
-  conteudo: {
-		type: String,
-		required: true
+  subTitulo: {
+		type: String
 	},
   url: {
 		type: String,
 		required: true
+	},
+	link: {
+		type: String
 	}
 
 },

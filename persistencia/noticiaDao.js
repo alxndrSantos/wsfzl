@@ -7,7 +7,7 @@ noticiaDao.salva = function(req, res) {
 
   model.create(req,res)
 		.then(function(noticia) {
-			res.json(noticia);      
+			res.json(noticia);
 		}, function(error) {
 			console.log('não conseguiu');
 			console.log(error);
